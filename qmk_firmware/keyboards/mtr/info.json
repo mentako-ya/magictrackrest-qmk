@@ -2,8 +2,8 @@
     "manufacturer": "mentako-ya",
     "keyboard_name": "mtr",
     "maintainer": "mentako-ya",
-    "bootloader": "atmel-dfu",
-    "diode_direction": "COL2ROW",
+    "bootloader": "caterina",
+    "diode_direction": "ROW2COL",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -14,7 +14,7 @@
     },
     "matrix_pins": {
         "cols": ["F6", "F7", "B1", "B3"],
-        "rows": ["E6", "D7", "C6"]
+        "rows": ["C6", "D7", "E6"]
     },
     "processor": "atmega32u4",
     "url": "",

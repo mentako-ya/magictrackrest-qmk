@@ -1,4 +1,4 @@
-// Copyright 2023 mentako-ya (@mentako-ya)
+// Copyright 2023 mentako-ya
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -19,6 +19,8 @@
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
+#define MATRIX_ROWS 3
+#define MATRIX_COLS 4
 
 #ifdef RGBLIGHT_ENABLE
 #define RGB_DI_PIN D3
@@ -33,4 +35,8 @@
 #define RGBLIGHT_EFFECT_RGB_TEST
 #define RGBLIGHT_EFFECT_ALTERNATING
 #define RGBLIGHT_EFFECT_TWINKLE
+#endif
+
+#ifdef OLED_ENABLE
+#define OLED_FONT_H "keyboards/mtr/glcdfont.c"
 #endif
