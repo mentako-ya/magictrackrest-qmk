@@ -3,6 +3,21 @@
 
 #pragma once
 
+// USB Device descriptor parameters
+#define VENDOR_ID           0x4D59     // "MY" = mentako-ya
+#define PRODUCT_ID          0x0200
+#define DEVICE_VER          0x0010
+#define MANUFACTURER        mentako-ya
+#define PRODUCT             mtr
+
+// Key matrix parameters
+#define DIODE_DIRECTION     ROW2COL
+#define MATRIX_COLS         4
+#define MATRIX_ROWS         3
+#define MATRIX_COL_PINS     { F6, F7, B1, B3 }
+#define MATRIX_ROW_PINS     { C6, D7, E6 }
+#define DEBOUNCE            5
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
@@ -19,8 +34,14 @@
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
+/* Firmware size reduction */
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+#define NO_MUSIC_MODE
+
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 4
+
 
 #ifdef RGBLIGHT_ENABLE
 #define RGB_DI_PIN D3
