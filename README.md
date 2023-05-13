@@ -1,20 +1,23 @@
-# MagicTrackRest+  Magic Trackpad 2,3 組込パームレスト　＋　自作キーボード
+# MagicTrackRest+
 
-AppleのMagic　Trackpad2,3を組込んで使用するパームレスト+自作キーボードです。
+~ Magic Trackpad2,3 組込パームレスト ＋ 自作キーボード ~ 
 
-HHKB　をはじめとする、各種６０％キーボードと組み合わせて使用する想定のサイズになっています。
+AppleのMagic Trackpad2,3を組込んで使用するパームレスト+自作キーボードです。
 
-MagicTrackpadの露出部のサイズを幅120mm（MacBookAirのトラックパッドと同じ幅）として、厚さ2mmの天板でトラックパットの両脇を覆うことで、キーボード操作時の誤タッチを避けつつ、MagicTrackpadを内蔵したパームレストとして使用できます。
+HHKBなどの６０％キーボードと組み合わせて使用する想定のサイズになっています。
 
-※タップでクリックの機能はOFFで使用するか、感度を下げてご使用をお勧めします
+MagicTrackpadの露出部のサイズを幅120mm（MacBookAirのトラックパッドと同じ幅）として、厚さ１．６mmの天板でトラックパットの両脇を覆うことで、キーボード操作時の誤タッチを避けつつ、MagicTrackpadを内蔵したパームレストとして使用できます。
 
-HHKB　US配列で省略されているカーソルキーや各種ショートカットキーなどをマッピングして-本末転倒-使用できます。
+トラックパッド露出部はホームポジション（FキーとJキー）に合わせて左側にオフセットしてあります。
 
-HHKBにはないLED照明付きで-蛇足-あなたのHHKBをゲーミングキーボドを彩ります。
+※露出部分の誤タッチを避けるため、タップでクリックの機能はOFFで使用するか、感度を下げてご使用をお勧めします
+
+キースイッチにはUS配列の６０％キーボードでは省略されがちなカーソルキーや言語切り替えキー、各種ショートカットキーなど任意のキーをマッピングして使用できます。
 
 キーマピングの変更は https://remap-keys.app/ を使用してドラックアンドドロップで簡単に変更可能です。
 専用ソフトウェアのインストールは不要です。
-　
+
+フルカラーLEDは色相、点灯パターン、ON/OFFをキーボード操作で調整可能です。
 
 ## キーマップ変更
 
@@ -43,9 +46,10 @@ remapの一般的な使用方法はサリチル酸さんの記事などをご参
 5. キーマップの変更 / キーマップの書き込み（右上Flashボタン） /　変更したキーマップの保存　/　キーマップのPDFダウンロード　などが可能
 
 キーマップサンプル
-- カーソル,shift,ctrl,LED調整 [ｍｔｒ_keymap_cursor_keymap_cheatsheet.pdf](mtr/mtr_cursor_keymap_cheatsheet.pdf)
+- カーソル,shift,ctrl,LED調整 [mtr_cursor_keymap_cheatsheet.pdf](mtr/mtr_cursor_keymap_cheatsheet.pdf)
 <img width="1200" alt="remap_key_leyout" src="mtr/remap_img/mtr_cursor_keymap_cheatsheet.png">
-- カーソル,マウスキー,メディアキー,LED調整 [ｍｔｒ_keymap_mouse_media_keymap_cheatsheet.pdf](mtr/mtr_mouse_media_keymap_cheatsheet.pdf)
+
+- カーソル,マウスキー,メディアキー,LED調整 [mtr_mouse_media_keymap_cheatsheet.pdf](mtr/mtr_mouse_media_keymap_cheatsheet.pdf)
 <img width="1200" alt="remap_key_leyout" src="mtr/remap_img/mtr_cursor_keymap_cheatsheet.png">
 
 ※ 製品出荷時点でキーボードに設定済みのマッピングは、ファームウェアのデフォルトキーマッピングとは一部異なる場合があります。
