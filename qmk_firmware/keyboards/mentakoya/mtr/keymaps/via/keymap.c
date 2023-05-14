@@ -4,26 +4,26 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	     /*
 	      * ┌───┬───┐              ┌───┬───┬───┬───┐
-	      * │L1 │L2 │              │PGU│HOM│UP │END│
+	      * │LN2│LN1│              │PGU│HOM│UP │END│
 	      * ├───┼───┤              ├───┼───┼───┼───┤
 	      * │L3 │ENT│              │PGD│LT │DN │RT │
 	      * └───┴───┘              └───┴───┴───┴───┘
           */
-    [0] = LAYOUT_6x2(
-        LT(1,KC_LNG2), LT(2,KC_LNG1),     KC_PGUP,     KC_HOME,     KC_UP,       KC_END,
-		LT(3,KC_BSPC), KC_ENT,            KC_PGDN,     KC_LEFT,     KC_DOWN,     KC_RGHT
-    ),
-    [1] = LAYOUT_6x2(
-    	_______,       _______,           S(KC_PGUP),  S(KC_HOME),  S(KC_UP),    S(KC_END),
-		_______,       _______,           S(KC_PGDN),  S(KC_LEFT),  S(KC_DOWN),  S(KC_RGHT)
-    ),
-    [2] = LAYOUT_6x2(
-    	_______,       _______,           C(KC_PGUP),  C(KC_HOME),  C(KC_UP),    C(KC_END),
-		_______,       _______,           C(KC_PGDN),  C(KC_LEFT),  C(KC_DOWN),  C(KC_RGHT)
-    ),
-    [3] = LAYOUT_6x2(
-    	_______,       _______,           RGB_MOD,     RGB_HUI,     RGB_SAI,     RGB_VAI,
-		_______,	   RGB_TOG,           RGB_RMOD,    RGB_HUD,     RGB_SAD,     RGB_VAD
+	    [0] = LAYOUT_6x2(
+	        SFT_T(KC_LNG2), CTL_T(KC_LNG1),           KC_PGUP,     KC_HOME,     KC_UP,       KC_END,
+			LT(3,KC_BSPC), KC_ENT,                    KC_PGDN,     KC_LEFT,     KC_DOWN,     KC_RGHT
+	    ),
+	    [1] = LAYOUT_6x2(
+	    	_______,       _______,                   _______,     _______,     _______,     _______,
+	    	_______,       _______,                   _______,     _______,     _______,     _______
+	    ),
+	    [2] = LAYOUT_6x2(
+		    _______,       _______,                   _______,     _______,     _______,     _______,
+		    _______,       _______,                   _______,     _______,     _______,     _______
+	    ),
+	    [3] = LAYOUT_6x2(
+	    	_______,       _______,                   RGB_MOD,     RGB_HUI,     RGB_SAI,     RGB_VAI,
+			_______,	   RGB_TOG,                   RGB_RMOD,    RGB_HUD,     RGB_SAD,     RGB_VAD
     )
 };
 // clang-format on
